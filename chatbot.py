@@ -1,7 +1,7 @@
 from openai import OpenAI
 import gradio 
 
-OPENAI_API_KEY= "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"
+OPENAI_API_KEY= "your-api-key"
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 messages = [{"role": "system", "content": "You are a writing assistant"}]
